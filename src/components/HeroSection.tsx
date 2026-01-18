@@ -75,9 +75,9 @@ const HeroSection = () => {
             className="flex gap-6 justify-center"
           >
             {[
-              { icon: Github, href: "https://github.com" },
-              { icon: Linkedin, href: "https://linkedin.com" },
-              { icon: Twitter, href: "https://twitter.com" },
+              { icon: Github, href: "https://github.com/Arslanasif9t9" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/arslan-ahmad-983834343/" },
+              // { icon: Twitter, href: "https://twitter.com" },
             ].map((social, index) => (
               <motion.a
                 key={index}

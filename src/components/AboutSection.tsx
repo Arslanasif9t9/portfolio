@@ -48,7 +48,7 @@ const AboutSection = () => {
               <span className="text-gradient">Based in Pakistan</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              I'm a Full Stack Developer with 3+ years of experience building
+              I'm a Full Stack Developer with 4+ years of experience building
               web applications. I specialize in React, Node.js, and modern web
               technologies. I love turning complex problems into simple,
               beautiful, and intuitive solutions.
@@ -61,7 +61,7 @@ const AboutSection = () => {
 
             <div className="flex flex-wrap gap-4">
               <motion.a
-                href="/resume.pdf"
+                href="https://arslanasif9t9.github.io/CV/"
                 className="px-6 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:opacity-90 transition-opacity"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

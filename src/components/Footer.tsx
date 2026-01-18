@@ -13,19 +13,20 @@ const Footer = () => {
             className="text-2xl font-display font-bold text-gradient"
             whileHover={{ scale: 1.05 }}
           >
-            AA.
+            Arslan Ahmad.
           </motion.a>
 
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {currentYear} Arslan Ahmad. Made with{" "}
-            <Heart size={14} className="text-primary" /> in Pakistan
+            © {currentYear} Arslan Ahmad. Made with{" Arslan Ahmad "}
+            {/* <Heart size={14} className="text-primary" /> */}
+             in Pakistan
           </p>
 
           <div className="flex gap-4">
             {[
-              { icon: Github, href: "https://github.com" },
-              { icon: Linkedin, href: "https://linkedin.com" },
-              { icon: Twitter, href: "https://twitter.com" },
+              { icon: Github, href: "https://github.com/Arslanasif9t9" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/arslan-ahmad-983834343/" },
+              // { icon: Twitter, href: "https://twitter.com" },
             ].map((social, index) => (
               <motion.a
                 key={index}
